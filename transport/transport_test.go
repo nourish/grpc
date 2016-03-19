@@ -45,9 +45,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/nourish/grpc/codes"
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/codes"
 )
 
 type server struct {

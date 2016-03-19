@@ -39,11 +39,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/nourish/grpc/codes"
+	perfpb "github.com/nourish/grpc/test/codec_perf"
+	"github.com/nourish/grpc/transport"
+	"github.com/nourish/protobuf/proto"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	perfpb "google.golang.org/grpc/test/codec_perf"
-	"google.golang.org/grpc/transport"
 )
 
 func TestSimpleParsing(t *testing.T) {

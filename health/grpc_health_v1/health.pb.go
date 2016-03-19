@@ -14,13 +14,13 @@ It has these top-level messages:
 */
 package grpc_health_v1
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/nourish/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
 import (
+	grpc "github.com/nourish/grpc"
 	context "golang.org/x/net/context"
-	grpc "google.golang.org/grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

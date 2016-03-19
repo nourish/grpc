@@ -38,10 +38,10 @@ import (
 	"io"
 	"time"
 
+	"github.com/nourish/grpc/codes"
+	"github.com/nourish/grpc/transport"
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/transport"
 )
 
 // recvResponse receives and parses an RPC response.

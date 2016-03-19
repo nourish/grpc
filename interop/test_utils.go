@@ -40,15 +40,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/nourish/grpc"
+	"github.com/nourish/grpc/codes"
+	"github.com/nourish/grpc/grpclog"
+	testpb "github.com/nourish/grpc/interop/grpc_testing"
+	"github.com/nourish/grpc/metadata"
+	"github.com/nourish/protobuf/proto"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
-	"google.golang.org/grpc/metadata"
 )
 
 var (

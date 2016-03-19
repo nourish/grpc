@@ -41,11 +41,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/nourish/grpc/credentials"
+	"github.com/nourish/grpc/grpclog"
+	"github.com/nourish/grpc/transport"
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/transport"
 )
 
 var (

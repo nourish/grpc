@@ -37,7 +37,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/credentials"
+	"github.com/nourish/grpc/credentials"
 )
 
 const tlsDir = "testdata/"

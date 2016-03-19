@@ -44,9 +44,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/nourish/grpc/codes"
+	"github.com/nourish/grpc/transport"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/transport"
 )
 
 var (

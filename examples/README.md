@@ -21,8 +21,8 @@ INSTALL
 -------
 
 ```
-$ go get -u google.golang.org/grpc/examples/helloworld/greeter_client
-$ go get -u google.golang.org/grpc/examples/helloworld/greeter_server
+$ go get -u github.com/nourish/grpc/examples/helloworld/greeter_client
+$ go get -u github.com/nourish/grpc/examples/helloworld/greeter_server
 ```
 
 TRY IT!
@@ -50,7 +50,7 @@ OPTIONAL - Rebuilding the generated code
 2 Install the protoc Go plugin.
 
 ```
-$ go get -a github.com/golang/protobuf/protoc-gen-go
+$ go get -a github.com/nourish/protobuf/protoc-gen-go
 $
 $ # from this dir; invoke protoc
 $  protoc -I ./helloworld/helloworld/ ./helloworld/helloworld/helloworld.proto --go_out=plugins=grpc:helloworld

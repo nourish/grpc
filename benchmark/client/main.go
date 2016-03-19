@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/nourish/grpc"
+	"github.com/nourish/grpc/benchmark"
+	testpb "github.com/nourish/grpc/benchmark/grpc_testing"
+	"github.com/nourish/grpc/benchmark/stats"
+	"github.com/nourish/grpc/grpclog"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/benchmark"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/benchmark/stats"
-	"google.golang.org/grpc/grpclog"
 )
 
 var (

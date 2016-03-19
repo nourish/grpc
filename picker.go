@@ -38,10 +38,10 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/nourish/grpc/grpclog"
+	"github.com/nourish/grpc/naming"
+	"github.com/nourish/grpc/transport"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/transport"
 )
 
 // Picker picks a Conn for RPC requests.

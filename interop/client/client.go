@@ -38,12 +38,12 @@ import (
 	"net"
 	"strconv"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/oauth"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/interop"
-	testpb "google.golang.org/grpc/interop/grpc_testing"
+	"github.com/nourish/grpc"
+	"github.com/nourish/grpc/credentials"
+	"github.com/nourish/grpc/credentials/oauth"
+	"github.com/nourish/grpc/grpclog"
+	"github.com/nourish/grpc/interop"
+	testpb "github.com/nourish/grpc/interop/grpc_testing"
 )
 
 var (

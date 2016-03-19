@@ -47,12 +47,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/nourish/grpc/codes"
+	"github.com/nourish/grpc/credentials"
+	"github.com/nourish/grpc/metadata"
+	"github.com/nourish/grpc/peer"
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
 )
 
 // NewServerHandlerTransport returns a ServerTransport handling gRPC

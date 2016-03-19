@@ -5,10 +5,10 @@ package health
 import (
 	"sync"
 
+	"github.com/nourish/grpc"
+	"github.com/nourish/grpc/codes"
+	healthpb "github.com/nourish/grpc/health/grpc_health_v1"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )
 
 type HealthServer struct {

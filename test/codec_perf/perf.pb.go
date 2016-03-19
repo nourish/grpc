@@ -13,7 +13,7 @@ It has these top-level messages:
 */
 package codec_perf
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/nourish/protobuf/proto"
 import fmt "fmt"
 import math "math"
 

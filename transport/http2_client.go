@@ -43,14 +43,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/nourish/grpc/codes"
+	"github.com/nourish/grpc/credentials"
+	"github.com/nourish/grpc/grpclog"
+	"github.com/nourish/grpc/metadata"
+	"github.com/nourish/grpc/peer"
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
 )
 
 // http2Client implements the ClientTransport interface with HTTP2.
